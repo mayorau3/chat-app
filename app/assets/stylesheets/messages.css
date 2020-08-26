@@ -1,0 +1,164 @@
+.wrapper {
+  display: flex;
+}
+
+.side_bar {
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+}
+
+.side-bar-header {
+  height: 100px;
+  padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-name a{
+  color: #FAFAFA;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.create-room {
+  font-size: 10px;
+}
+
+.create-room a{
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.rooms {
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+  overflow: scroll;
+}
+
+.room {
+  padding: 20px 0 40px;
+}
+
+.room-name a {
+  text-decoration: none;
+  color: white;
+}
+
+.chat {
+  background-color: #ffffff;
+  width: calc(100% - 300px);
+}
+
+
+.chat-header {
+  height: 100px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title{
+  font-size: 24px;
+  color: #333;
+  margin: 36px;
+}
+
+.header-button {
+  margin-top: 40px;
+}
+
+.header-button a{
+  color: darkred;
+  border: 1px solid darkred;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.messages {
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
+  padding: 46px 40px 0;
+  overflow: scroll;
+}
+
+.message {
+  margin: 10px 0;
+}
+
+.upper-message {
+  display: flex;
+}
+
+.message-user {
+  font-size: 16px;
+  color: #434A54;
+}
+
+.message-date {
+  font-size: 12px;
+  color: #999;
+  padding-left: 10px;
+}
+
+.lower-message {
+/* 仕様にない余白では？ */
+  margin-top: 10px;
+}
+
+.message-content {
+  font-size: 14px;
+  color: #434A54;
+  margin-bottom: 40px;
+}
+
+.form {
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+  display: flex;
+}
+
+.form-input {
+  background-color: white;
+  /*display: flex;は画像ボタン実装した時用？*/
+  display: flex;
+  width: 100%;
+}
+
+.form-message {
+  border: none;
+  height: 50px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.form-submit {
+  background-color: #38AEF0;
+  border: none;
+  font-size: 16px;
+  color: white;
+  /*heightなくても良いのでは*/
+  height: 50px;
+  padding: 0 20px;
+  margin-left: 15px;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
